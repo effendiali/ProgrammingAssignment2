@@ -2,6 +2,8 @@
 ## functions do
 
 ## Write a short comment describing this function
+# makeCacheMatrix is to calculate and cache the inverse matrix
+# cacheSolve is to return cache value of inverse matrix if any, otherwise calculate right away
 
 makeCacheMatrix <- function(x = matrix()) {
   m <- NULL
